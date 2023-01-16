@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+
+    <title>Meeting request</title>
+</head>
+<body>
+    <ul>
+        <li style="float: right;"><a href="FAQ">FAQ</a></li>
+        <li style="float: right;"><a href="Login.html">Login</a></li>
+        <li style="float: right;"><a href="Search mentor">Search mentor</a></li>
+        <li style="float: right;"><a href="Home">Home</a></li>
+    </ul>
+    
+    <div class="container">
+        <strong><h1>Meeting request</h1></strong>
+
+        <form action="">
+            <div class="form">
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Purpose</label><br>
+                        <textarea name="meeting_purpose" rows="8" cols="50"></textarea><br>
+                    </div>
+                    <div class="input-field">
+                        <label>Available date</label><br>
+                        <input type="date" name="meeting_date"><br><br>
+                        <input type="time" name="meeting_time"><br>
+                    </div><br><br><br>
+                    <div class="accept_or_decline">
+                        <input type="button" name="accept" class="accept" value="Accept" style="background-color:green; padding: 20px 20px;">
+                        <input type="button" name="decline" class="decline" value="Decline" style="background-color:red; padding: 20px 20px;"><br>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container2">
+
+        <a href="mentee_profile"><img src="profile.png" height="125px"></a><br>
+
+        <div class="mentee_profile">
+            'Mentee name' 
+        </div><br>
+        <div id="check_profile_button">
+            <a href="mentee_profile"><input type="submit" name="meeting_purpose" value="Check profile" style="color: #000; background-color:lavender;"></a><br>
+        </div>
+    </div>
+</body>
+</html>
