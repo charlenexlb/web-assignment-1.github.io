@@ -1,0 +1,157 @@
+.Mentors {
+    position: relative;
+    top: 20%;
+    left: 26%;
+    
+ }
+
+  /* layout of the mentors */
+  /* specifci layout of the first mentor */
+ #first.Mentors .profiles{
+    width: 800px; 
+    height: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 8px 8px -10px #b3c6ff;
+    margin-top: 100px;
+ }  
+ 
+ .Mentors .profiles{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+
+ .Mentors .mentor_picture {
+   width: 125px;
+   height: 120px;
+   margin-inline: 5px;
+ }
+
+ .Mentors .profile_1{
+   display: inline-grid;
+   margin-inline: 20px;
+ }
+
+ .Mentors .profile_1 {
+   padding-bottom: 10px ;
+   user-select: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+   display: flex;
+
+}
+
+.datesbtn {
+   background-color: #5078ef;
+   color: white;
+   padding: 5px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+
+.dates:hover .datesbtn {
+   background-color: #5078ef;
+ }
+
+.dates {
+   position: relative;
+   display: inline-block;
+}
+
+.date_choices {
+   position: absolute;
+   top: calc(100% + .25rem);
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   background-color: white;
+   opacity: 0;
+   transform: translateY(-10px);
+   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dates > .datesbtn:focus + .date_choices {
+   opacity: 1;
+   transform: translateY(0);
+}
+
+.date_choices a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.description {
+   display: block;
+   position: relative;
+   border: 1px solid black;
+   padding: 5px;
+   width: 300px;
+}
+
+.appointmentbtn {
+   background-color: #5078ef;
+   color: white;
+   padding: 5px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+    
+}
+
+.appointmentbtn {
+   position: relative;
+   width: 100px;
+   height: 50px;
+   margin: 35px;
+}
+
+.appointmentbtn:hover {background-color: #253f8c;}
+
+/* specifci layout of the second mentor */
+#second.Mentors{
+   width: 800px; 
+   height: 150px;
+   border-radius: 5px;
+   box-shadow: 0 8px 8px -10px #b3c6ff;
+}  
+
+#second.Mentors .profiles{
+   width: 800px;  
+   height: 150px;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 0 8px 8px -10px #b3c6ff;
+   margin-top: 20px;
+}  
+
+#third.Mentors{
+   width: 800px; 
+   height: 150px;
+   border-radius: 5px;
+   box-shadow: 0 8px 8px -10px #b3c6ff;
+}  
+
+#third.Mentors .profiles{
+   width: 800px;  
+   height: 150px;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 0 8px 8px -10px #b3c6ff;
+   margin-top: 20px;
+}  
+
+
+
+
+
+
+
+
+ 

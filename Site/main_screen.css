@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+  /*using flexbox */
+  .header {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 30px 10%;
+  }
+
+  .nav {
+      order: 1;
+  }
+
+  .nav_links {
+   list-style: none;
+  }
+
+  .nav_links li {
+   display: inline-block;
+   padding: 0px 5px;
+  }
+
+  .nav_links li a {
+   transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+   color: slategrey;
+  }
+
+  .search-bar .button {
+   width: 200px;
+   height: 100px;
+   position: relative;
+}
+
+   /*button layout */
+  .search-bar .cta {
+    /* width: 100px; */
+   height: 40%;
+   border: 0;
+   font-size: 16px;
+   padding-left: 20px;
+   padding-right: 15px;
+   color: #6f768d;
+   order: 2;
+   
+}
+
+   /*button layout */
+   .search-bar .cta .button_1 {
+      
+      width: 80px;
+      font-size: 14px;
+   }
+
+  button:hover {
+   background-color: rgba(0, 136, 169, -.8);
+  }
+
+  .profile_picture {
+   height: 85px;
+   padding-left: 15px;
+   cursor: pointer;
+   order: 3;
+  }
+
+
+ body {
+    background: #e4eef4;
+ }
+
+ .search-bar {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    
+ }
+
+  /* layout of the whole search bar */
+ .search-bar {
+    /* width: 600px; */
+    background-color: #fff;
+    height: 65px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 8px 8px -10px #b3c6ff;
+ }
+
+ .search-bar .options {
+    width: 150px;
+    border-right: 2px solid #dde2f1;
+    color: #9fa3b1;
+    position: relative;
+    /* Cursor changes into clickable thingie */
+    cursor: pointer;
+ }
+ .search-bar .options {
+    
+    padding: 13px 15px;
+    font-size: 14px;
+    user-select: none;
+ }
+ 
+
+
+.job_category {
+   border: none;
+}
+/* searchbox */
+/* position of location  */
+.search-bar .location {
+    /* width: 200px; */
+    height: 100px;
+    position: relative;
+}
+.search-bar .location .input {
+    width: 100px;
+    height: 40%;
+    border: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 380x;
+    color: #6f768d;
+    
+}
+
+.review_score .options .select {
+   position: relative;
+   width: 100px;
+   border: 0;
+   color: black;
+   appearance: none;
+}
+
+
